@@ -138,6 +138,10 @@ app.post("/chat-with-data", async (req, res) => {
   }
 });
 
+// 🏠 Root route
+app.get("/", (req, res) => {
+  res.send("✅ Analytics API is running successfully!");
+});
 
 // 🚀 Start the server
 const PORT = process.env.PORT || 4000;
