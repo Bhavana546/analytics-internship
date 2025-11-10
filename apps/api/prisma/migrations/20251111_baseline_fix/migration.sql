@@ -1,0 +1,2 @@
+-- Baseline migration for Render
+-- No schema changes, this migration exists only to mark database as in sync.
