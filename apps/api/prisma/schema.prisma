@@ -81,8 +81,9 @@ model Payment {
 }
 
 model Document {
-  id             Int      @id @default(autoincrement())
+  id             String   @id @default(uuid())
   name           String
+  filePath       String
   fileType       String
   fileSize       Int
   status         String
@@ -90,5 +91,4 @@ model Document {
   departmentId   String?
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
-  filePath       String? // ✅ Add this line
 }
