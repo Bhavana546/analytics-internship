@@ -1,0 +1,17 @@
+﻿{
+  ""name"": ""analytics-internship"",
+  ""private"": true,
+  ""version"": ""1.0.0"",
+  ""description"": ""Monorepo for Analytics Dashboard + Vanna AI - internship challenge"",
+  ""scripts"": {
+    ""dev"": ""turbo run dev --parallel"",
+    ""build"": ""turbo run build"",
+    ""lint"": ""turbo run lint""
+  },
+  ""workspaces"": [
+    ""apps/*"",
+    ""packages/*"",
+    ""services/*""
+  ],
+  ""devDependencies"": {}
+}
