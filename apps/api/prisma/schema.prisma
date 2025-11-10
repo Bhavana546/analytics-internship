@@ -1,0 +1,94 @@
+// =======================================================
+// Prisma Schema for Analytics Internship Project
+// =======================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// =================== MODELS ============================
+
+// 1️⃣ Vendor Table
+model Vendor {
+  id       Int       @id @default(autoincrement())
+  name     String    @unique
+  contact  String?
+  email    String?
+  invoices Invoice[] // one-to-many: a vendor has many invoices
+}
+
+// 2️⃣ Customer Table
+model Customer {
+  id       Int       @id @default(autoincrement())
+  name     String    @unique
+  email    String?
+  invoices Invoice[] // one-to-many
+}
+
+// 3️⃣ Category Table
+model Category {
+  id        Int        @id @default(autoincrement())
+  name      String     @unique
+  lineItems LineItem[]
+}
+
+// 4️⃣ Invoice Table
+model Invoice {
+  id            Int      @id @default(autoincrement())
+  invoiceNumber String   @unique
+  date          DateTime
+  amount        Float
+  status        String
+
+  vendorId   Int
+  customerId Int?
+
+  vendor   Vendor    @relation(fields: [vendorId], references: [id])
+  customer Customer? @relation(fields: [customerId], references: [id])
+
+  lineItems LineItem[]
+  payments  Payment[]
+}
+
+// 5️⃣ LineItem Table
+model LineItem {
+  id          Int    @id @default(autoincrement())
+  description String
+  quantity    Int
+  totalPrice  Float
+
+  invoiceId  Int
+  categoryId Int?
+
+  invoice  Invoice   @relation(fields: [invoiceId], references: [id])
+  category Category? @relation(fields: [categoryId], references: [id])
+}
+
+// 6️⃣ Payment Table
+model Payment {
+  id          Int      @id @default(autoincrement())
+  amountPaid  Float
+  dueDate     DateTime
+  bankAccount String?
+
+  invoiceId Int
+  invoice   Invoice @relation(fields: [invoiceId], references: [id])
+}
+
+model Document {
+  id             String   @id
+  name           String
+  filePath       String
+  fileSize       Int
+  fileType       String
+  status         String
+  organizationId String?
+  departmentId   String?
+  createdAt      DateTime
+  updatedAt      DateTime
+}
