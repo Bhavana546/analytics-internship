@@ -149,12 +149,17 @@ Open in browser → [http://localhost:3000](http://localhost:3000)
 
 | View             | Screenshot                                    |
 | ---------------- | --------------------------------------------- |
-| Dashboard Loaded | ![Dashboard](C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-11 094324.png
-C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-11 094342.png)|
-| API Stats JSON   | ![API Stats](C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-11 085117.png
-C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-11 085134.png
-C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-11 085151.png
-C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2025-11-11 085205.png) |
+| Dashboard Loaded | ![Dashboard]
+<img width="1919" height="973" alt="Screenshot 2025-11-11 094324" src="https://github.com/user-attachments/assets/76e1279a-6554-41d4-8c01-bbbcd0d58fc4" />
+<img width="1919" height="974" alt="Screenshot 2025-11-11 094342" src="https://github.com/user-attachments/assets/bd89941b-393f-4533-bdb7-b9fb1f33b02a" />|
+
+
+| API Stats JSON   | ![API Stats]
+<img width="1919" height="1012" alt="Screenshot 2025-11-11 085117" src="https://github.com/user-attachments/assets/8ff10b8d-3e28-4e9a-8e00-1ac574490e44" />
+<img width="1908" height="1011" alt="Screenshot 2025-11-11 085134" src="https://github.com/user-attachments/assets/fc855252-aeed-4328-b54c-4e2b68902a98" />
+<img width="1919" height="1009" alt="Screenshot 2025-11-11 085151" src="https://github.com/user-attachments/assets/e2746971-16e4-4bb1-8706-4e6b8e5d1ba5" />
+<img width="1914" height="1017" alt="Screenshot 2025-11-11 085205" src="https://github.com/user-attachments/assets/06a5a252-93bc-4fd3-b228-0c07c62d5215" />|
+
 
 ---
 
