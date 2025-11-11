@@ -86,7 +86,7 @@ NEXT_PUBLIC_APP_URL=https://analytics-web-pi9h.onrender.com
 
 | Endpoint         | Method | Description                    |
 | ---------------- | ------ | ------------------------------ |
-| `/health`        | GET    | Health check                   |
+| `/_health`        | GET    | Health check                   |
 | `/stats`         | GET    | Returns summary metrics        |
 | `/recent`        | GET    | Fetches recent document data   |
 | `/documents`     | GET    | Lists all documents            |
