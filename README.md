@@ -152,7 +152,7 @@ Open in browser → [http://localhost:3000](http://localhost:3000)
 | Dashboard Loaded | ![Dashboard]
 <img width="1919" height="973" alt="Screenshot 2025-11-11 094324" src="https://github.com/user-attachments/assets/76e1279a-6554-41d4-8c01-bbbcd0d58fc4" />
 <img width="1919" height="974" alt="Screenshot 2025-11-11 094342" src="https://github.com/user-attachments/assets/bd89941b-393f-4533-bdb7-b9fb1f33b02a" />
-<img width="1919" height="958" alt="Screenshot 2025-11-10 212122" src="https://github.com/user-attachments/assets/e7b29f7e-e903-4085-a295-97c2ff0e26eb" />|
+<img width="1912" height="961" alt="Screenshot 2025-11-10 224503" src="https://github.com/user-attachments/assets/af5147a9-6c91-47d3-b6f6-faf2c6aab93e" />|
 
 
 | API Stats JSON   | ![API Stats]
