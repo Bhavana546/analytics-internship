@@ -162,6 +162,23 @@ Open in browser → [http://localhost:3000](http://localhost:3000)
 
 
 ---
+---
+
+## 📂 Deliverables Summary
+
+| Deliverable | Description | Link |
+|--------------|-------------|------|
+| 💻 GitHub Repository | Full monorepo (frontend + backend) | [View Repo](https://github.com/Bhavana546/analytics-internship) |
+| 🌐 Frontend (Next.js) | Deployed UI on Render | [https://analytics-web-pi9h.onrender.com](https://analytics-web-pi9h.onrender.com) |
+| ⚙️ Backend API | Node.js + Prisma service | [https://analytics-api-uuvc.onrender.com](https://analytics-api-uuvc.onrender.com) |
+| 🗄️ Database | Render PostgreSQL | Private |
+| 🧠 Chat with Data (Vanna AI) | Future-ready AI extension | Planned |
+| 🎥 Demo Video | Dashboard walkthrough |  
+
+
+https://github.com/user-attachments/assets/e3399894-3cfe-46ea-bde8-390d251a2d31
+
+
 
 ## 👩‍💻 Author
 
@@ -185,8 +202,4 @@ Open in browser → [http://localhost:3000](http://localhost:3000)
 
 ```
 
----
 
-Would you like me to automatically include **Render status badges** (like “Frontend: ✅ Deployed”, “Backend: ✅ Healthy”) and a **preview image banner** at the top?  
-It’ll make your GitHub page look even more professional.
-```
